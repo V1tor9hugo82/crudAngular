@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta Bic azul",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Notbook Mec Pro",
+      "price": 12000.9
+    },
+    {
+      "id": 3,
+      "name": "Sansung S20",
+      "price": 5000
+    },
+    {
+      "id": 4,
+      "name": "Tablet",
+      "price": "1250.00"
+    },
+    {
+      "name": "veio do formulario",
+      "price": "9.99",
+      "id": 5
+    },
+    {
+      "name": "televisao",
+      "price": "1250.00",
+      "id": 6
+    },
+    {
+      "name": "",
+      "price": 123.2,
+      "id": 7
+    }
+  ]
+}
