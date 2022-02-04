@@ -1,6 +1,6 @@
 import { ProductService } from './../product.service';
+import { Product } from './../product.model';
 import { Component, OnInit } from '@angular/core';
-import { Product } from '../product.model';
 
 @Component({
   selector: 'app-product-read',
@@ -9,7 +9,9 @@ import { Product } from '../product.model';
 })
 export class ProductReadComponent implements OnInit {
 
+  /*Criando uma variável de arrey de produtos*/
   products: Product[]
+
   displayedColumns = ['id', 'name', 'price', 'action']
 
   constructor(private productService: ProductService) { }
@@ -19,4 +21,5 @@ export class ProductReadComponent implements OnInit {
       this.products = products
     })
   }
+
 }
